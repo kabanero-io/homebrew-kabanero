@@ -1,8 +1,8 @@
 class Kabanero < Formula
   desc "kabanero cli"
   homepage "https://kabanero.io/"
-  url "https://github.com/kabanero-io/kabanero-command-line/releases/download/0.4.0/kabanero-0.4.0-homebrew-amd64.tar.gz"
-  sha256 "d7ed70f41890232f2a146b89632363ce36aad958abf872cfd757575a15b0fa71"
+  url "https://github.com/kabanero-io/kabanero-command-line/releases/download/0.6.0/kabanero-0.6.0-homebrew-amd64.tar.gz"
+  sha256 "1f7020a698dcda3d3cde7f52aba1c136bbb45b694e62d7628bfce879e09c8737"
 
   def install
     bin.install "kabanero"
